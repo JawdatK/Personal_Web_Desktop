@@ -1,0 +1,230 @@
+/* General */
+body {
+  background: url(../image/bg.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+/* PWD Dock  */
+.dockbg {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background:rgba(127, 172, 255, 0.424);
+}
+
+.dockbg #time {
+  float:right;
+  margin-top: 12px;
+  margin-right: 20px;
+  font:  bold 15px "arial" ;
+  color:rgb(0, 60, 116);
+}
+
+.dock {
+  position: fixed;
+  text-align: center;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  height: 50px;
+  line-height: 50px;
+}
+
+.dock img {
+  display: inline-block;
+  vertical-align: bottom;
+  height: 60%;
+  padding: 0 10px;
+}
+
+.dock img:hover {
+  height: 100%;
+}
+
+
+/* Memory Game */
+
+#memoryContainer {
+  margin: 10px;
+  padding: 0px;
+  width: fit-content;
+  transition: all 0.3s;
+}
+
+#memoryContainer a {
+    text-decoration: none;
+}
+
+#memoryContainer .img {
+  width: 50px;
+  border:1px solid rgb(202, 202, 202) ;
+}
+#memoryContainer .img:hover {
+  border:1px solid white ;
+}
+
+#memoryHeader {
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.931);
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:rgb(255, 102, 0);
+  text-align: center;
+}
+
+.removed {
+    visibility: hidden;
+}
+
+.disabler {
+  pointer-events: none;
+  opacity: 0.7;
+  transition: all 1s;
+}
+
+
+/* Chat application */
+
+#chat-main{
+  width: 300px;
+}
+
+.chatContainer{
+    height: 250px;
+    overflow: auto;
+    background: #f9f9f9e8;
+    overflow-wrap: break-word;
+    transition: all 1s;
+}
+
+#chatConversation p {
+    padding: 14px 0px;
+    margin: 0 20px;
+    border-bottom: 1px solid #e9e9e9;
+    color: gray;
+}
+
+#chatConversation strong {
+    color: rgb(25, 107, 173);
+    font-size: 14px;
+}
+
+#msg{
+    padding: 10px;
+    box-sizing: border-box;
+    border:0;
+    display: block;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+
+#sendBtn {
+    background: rgba(127, 182, 255, 0.603);
+    font-size: 20px;
+    width: 100%;
+    height: 50px;
+}
+
+#sendBtn:hover {
+    background: rgba(127, 190, 255, 0.883);
+}
+
+#uName {
+    padding: 10px ;
+    width: 62%;
+    background: #fff;
+    font-size: 14px;
+}
+
+#userBtn {
+    background: rgba(255, 126, 6, 0.787);
+    font-size: 12px;
+    padding: 12px 0;
+    width: 30%;
+    float: right;
+}
+
+#userBtn:hover {
+  background: rgba(127, 190, 255, 0.883);
+}
+
+/* Calculator */
+
+#calculator {
+  width: 14.1em;
+  height: 18em;
+}
+
+#calculator .viewer {
+  margin:3px;
+  width: 10.2em;
+  height: 3.2em;
+  font: bold 16px "Courier New" ;
+  color:rgb(255, 102, 0);
+  float: left;
+  line-height: 3em;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.157);
+}
+
+#calculator button {
+  margin: 0.25em;
+  width: 3em;
+  height: 3em;
+  border: 0;
+  background: rgba(245, 245, 245, 0.952);
+  color: #2f82a3;
+  cursor: pointer;
+  float: left;
+  font: inherit;
+  transition: all 0.5s;
+}
+  
+#calculator button:hover {
+    background: #1b6bad;
+    color: white;
+  }
+
+
+/* Window */
+
+#container {
+  position: absolute;
+  width: fit-content;
+  height:fit-content ;
+  border: 1px solid rgba(127, 172, 255, 0.883);
+  z-index: 9;
+}
+
+#container:hover{
+  border: 1px solid rgba(6, 91, 250, 0.883);
+
+}
+
+.header {
+  padding: 8px;
+  cursor: move;
+  background-color: rgb(108, 172, 224);
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-family: serif;
+  z-index: 10;
+}
+
+.header img {
+float: left;
+height: 20px;
+}
+
+.header .close{
+float: right;
+}
+
+.close:hover {
+  color:orange;
+}
