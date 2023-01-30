@@ -30,4 +30,4 @@ All Exported functions, classes and types should be commented. Perferably using 
 The application shall be visually appealing
 The code shall be organized in appropriate modules, at least four (4).
 
-some other lines..
+some other lines.. :)
