@@ -29,3 +29,5 @@ The code standard standard.js should be followed. ( npm start will show errors i
 All Exported functions, classes and types should be commented. Perferably using JSDoc.
 The application shall be visually appealing
 The code shall be organized in appropriate modules, at least four (4).
+
+some other lines..
